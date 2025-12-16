@@ -1,0 +1,35 @@
+# BMAD Configuration File
+# Build More, Architect Dreams
+
+# Project settings
+project:
+  name: nemotron
+  version: "1.0.0"
+  description: "Nemotron project"
+
+# BMAD Core configuration
+core:
+  version: "6.0.0-alpha.16"
+  
+# Module settings
+modules:
+  bmm:
+    enabled: true
+    # BMad Method module for agile development
+  bmb:
+    enabled: false
+    # BMad Builder module for custom agents
+  cis:
+    enabled: false
+    # Creative Intelligence Suite
+
+# Agent settings
+agents:
+  default_language: "en"
+  code_language: "auto"
+
+# Workflow settings
+workflows:
+  default_track: "method"  # quick, method, enterprise
+  auto_save: true
+  shard_documents: true

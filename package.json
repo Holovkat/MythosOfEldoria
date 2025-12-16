@@ -1,0 +1,13 @@
+{
+  "name": "nemotron",
+  "version": "1.0.0",
+  "description": "Nemotron project with BMAD",
+  "scripts": {
+    "bmad": "bmad-method",
+    "bmad-install": "bmad-method install",
+    "bmad-status": "bmad-method status"
+  },
+  "devDependencies": {
+    "bmad-method": "npm:bmad-method@alpha"
+  }
+}
