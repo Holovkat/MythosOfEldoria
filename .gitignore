@@ -5,6 +5,11 @@ node_modules/
 _bmad/cache/
 _bmad/temp/
 _bmad/logs/
+bmad
+.bmad
+.factory
+.opencode
+
 
 # OS generated files
 .DS_Store
