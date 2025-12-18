@@ -1,41 +1,63 @@
-# MythosOfEldoria
+# 🛡️ Mythos of Eldoria: The Infinite Saga
 
-Step into an infinite saga where your choices weave the very fabric of legend. "Mythos of Eldoria" is an AI-powered RPG experience that combines deep narrative storytelling with dynamic visuals and persistent cloud saves.
+[![Vercel Deployment](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)](https://mythos-of-eldoria.vercel.app)
+[![Tech Stack: Next.js](https://img.shields.io/badge/Next.js-16--Turbopack-000000?style=for-the-badge&logo=nextdotjs)](https://nextjs.org)
+[![Database: Convex](https://img.shields.io/badge/Database-Convex-black?style=for-the-badge&logo=convex)](https://convex.dev)
+[![AI: Gemini 2.x](https://img.shields.io/badge/AI-Gemini_Pro-blue?style=for-the-badge&logo=google-gemini)](https://ai.google.dev)
 
-## 📁 Repository Structure
+Step into a living, breathing high-fantasy world where your choices don't just influence the story—they _create_ it. **Mythos of Eldoria** is a next-generation AI RPG that blends serious Lord of the Rings-style narration with high-fidelity cinematic visuals.
 
-- **`ai-rpg/`**: The core Next.js application, including the game engine and UI.
-- **`docs/`**: Comprehensive requirements, roadmaps, and architecture documentation.
-- **`.agent/`**: Agent configurations and workflows for BMAD.
+---
 
-## 🛡️ Core Features
+## 📁 Repository Map
 
-- **Gemini-Powered DM**: A serious, LOTR-style Game Master that reacts to your every choice.
-- **Dynamic Visuals**: Photorealistic AI-generated scenes that bring your story to life.
-- **Cloud Persistence**: Your adventure is automatically preserved in the archives (Convex).
-- **Interactive Narrative**: Suggested actions, inventory management, and character progression.
+This repository is organized as a multi-domain workspace to handle both the development of the game and its extensive narrative architecture:
 
-## 🚀 Getting Started
+- **`ai-rpg/`**: The core **Next.js 16** (Turbopack) application. This contains the game loop, character engine, and elite illustration protocols.
+- **`docs/`**: The "Grand Archives." Contains all Master Checklists, Requirements documents, and the architectural roadmap that guides development.
+- **`.agent/`**: AI Workflow configurations (BMAD-compliant) used to facilitate collaborative development with assistant agents.
 
-To run the application locally:
+---
 
-1.  **Navigate to the app**:
-    ```bash
-    cd ai-rpg
-    ```
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
-3.  **Forge your environment**:
-    Create a `.env.local` with your `GEMINI_API_KEY` and Convex configuration.
-4.  **Enter the realm**:
-    ```bash
-    npm run dev
-    ```
+## ⚔️ Core Pillars
 
-## ☁️ Deployment (Vercel)
+### 🧠 The Sentient Game Master
 
-When deploying to Vercel, ensure you set the **Root Directory** to `ai-rpg`.
+Powered by **Gemini 1.5/2.x**, our GM is not just a chatbot. It is a storyteller trained in the arts of high fantasy, reacting with consistency and depth to your actions, inventory, and character traits.
 
-Built with Next.js, Gemini API, and Convex. ⚔️✨📜
+### 🖼️ Elite Illustration Engine
+
+Experience true immersion with our **"Nano Banana"** (Gemini 2.5 Flash Image) integration.
+
+- **Hyper-Specific Prompting:** Uses cinematic camera angles and layered composition.
+- **Silent Fallback:** Seamlessly pivots to **Pollinations.ai** if quotas are reached, ensuring your saga never loses its luster.
+
+### ☁️ Immortal Progress (Cloud Save)
+
+The **Convex-powered** persistence layer ensures your legend is truly immortal.
+
+- **Auto-Save Rituals:** Progress is preserved every 5 interactions and upon page exit.
+- **Archives Page:** Browse and delete your historical legends directly from the game interface.
+
+---
+
+## 🚀 Deployment Instructions
+
+### Local Forge
+
+1. **Navigate:** `cd ai-rpg`
+2. **Ignite:** `npm install`
+3. **Environment:** Create `.env.local` with keys for Gemini and Convex.
+4. **Resonance:** `npm run dev`
+
+### Vercel Ascension
+
+When linking this repo to Vercel:
+
+- **Root Directory:** Set to `ai-rpg`.
+- **Framework Preset:** Next.js.
+- **Env Vars:** Map `GEMINI_API_KEY`, `NEXT_PUBLIC_CONVEX_URL`, and `CONVEX_DEPLOYMENT`.
+
+---
+
+Built with pride by the seekers of Eldoria. 🛡️⚔️📜✨
